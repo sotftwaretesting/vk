@@ -19,6 +19,7 @@
     <version.testng>7.6.0</version.testng>
     <version.allure>2.18.1</version.allure>
     <version.selenide>6.6.6</version.selenide>
+    <version.allure.selenide>2.18.1</version.allure.selenide>
 
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <aspectj.version>1.9.9.1</aspectj.version>
@@ -42,6 +43,12 @@
       <groupId>com.codeborne</groupId>
       <artifactId>selenide</artifactId>
       <version>${version.selenide}</version>
+    </dependency>
+
+    <dependency>
+      <groupId>io.qameta.allure</groupId>
+      <artifactId>allure-selenide</artifactId>
+      <version>${version.allure.selenide}</version>
     </dependency>
   </dependencies>
 
